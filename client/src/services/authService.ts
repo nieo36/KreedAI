@@ -36,6 +36,8 @@ export interface AthleteProfile {
   trainingFrequency?: string;
   profilePhoto?: string;
   avatar?: string;
+  score?: number;
+  isCalibrated?: boolean;
 }
 
 export interface PrivacyPreferences {
